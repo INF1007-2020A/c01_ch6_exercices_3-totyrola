@@ -65,7 +65,7 @@ def main() -> None:
 
     lifo = Stack()
     lifo.put_many([randint(0, 1000) for _ in range(20)])
-    print(f"On ordonne une file: {sort_queue(lifo)}")
+    print(f"On ordonne une file: {sort_stack(lifo)}")
 
     fifo = Queue()
     fifo.put_many([randint(0, 1000) for _ in range(20)])
