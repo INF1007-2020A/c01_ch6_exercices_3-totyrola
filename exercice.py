@@ -27,8 +27,8 @@ def delete_nth_from_stack(data: Stack, position: int) -> Stack:
 def delete_nth_from_queue(data: Queue, position: int) -> Queue:
     # TODO: Supprimer le énième (position) élément de data et retourner la nouvelle structure de données.
     for i in range(len(data)):
-        if i == position
-        co
+        if i == position:
+            continue
 
     return 
 
