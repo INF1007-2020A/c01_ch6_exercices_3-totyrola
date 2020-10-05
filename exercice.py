@@ -31,7 +31,7 @@ def delete_nth_from_queue(data: Queue, position: int) -> Queue:
             continue
         print(data)
 
-    return 
+    return data
 
 
 def sort_stack(data: Stack) -> Stack:
