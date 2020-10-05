@@ -29,6 +29,7 @@ def delete_nth_from_queue(data: Queue, position: int) -> Queue:
     for i in range(len(data)):
         if i == position:
             continue
+        print()
 
     return 
 
